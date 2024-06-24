@@ -2,7 +2,7 @@
 /**
  * main - the main function
  *
- * Return - must return always return a zero
+ * Return: must return always return a zero
  */
 
 int main(void)
