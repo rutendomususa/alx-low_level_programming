@@ -1,21 +1,19 @@
 #include "main.h"
 
 /**
- * print_most_numbers - Prints numbers from 0 to 9 excluding 2 and 4 followed by a new line.
- */
+*print_most_numbers - prints
+* owned by Bwave ICT
+*Return: void
+*/
+
 void print_most_numbers(void)
 {
-    char num;
+	char c;
 
-    num = '0';
-    while (num <= '9')
-    {
-        if (num != '2' && num != '4')
-        {
-            _putchar(num);
-        }
-        num++;
-    }
-    _putchar('\n');
+	for (c = '0'; c <= '9'; c++)
+	{
+	if (!(c == '2' || c == '4'))
+	_putchar(c);
+	}
+	_putchar('\n');
 }
-
